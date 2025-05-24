@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Identity Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background">
+        <form action="https://api.web3forms.com/submit" method="POST"> 
+         <div>
+            <input type="hidden" name="access_key" value="366dc186-ca6b-426d-8971-64043ea2b3b0">
+            <h1>Personal Details</h1>
+            <h3>Name</h3>
+            <input type="text" name="Name" placeholder="Enter fullName" id="name"required>
+            <h3>Email</h3>
+            <input type="email" name="Email" placeholder="Enter Email" id="email"required>
+            <h3>Contact Number</h3>
+            <input type="tel" placeholder="Enter Phone Number" name="Number" id="number" pattern="{10}" maxlength="10" required>
+            <h3>Date of Birth</h3>
+            <input type="date" name="DOB" placeholder="Enter D.O.B" id="birth"required>
+            <h3>Enter Bio (0-100)</h3>
+            <input type="text" name="Bio" maxlength="100" id="bio"><br>
+            <button type="submit" id="button"> submit </button>
+           </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

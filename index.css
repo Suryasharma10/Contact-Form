@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+}
+body{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    
+}
+.background{
+    border: 1.5px solid rgb(177, 174, 174);
+    border-radius: 1%;
+    box-shadow: 1rem 1rem 3rem 0 rgba(8, 7, 7, 0.5);
+    height: 90vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 224, 244);
+    color: black;
+}
+input{
+    width:50vh;
+    height: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(190, 224, 244);
+    color:black;
+    border-radius: 0.6vh;
+    padding-left: 1%;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+button{
+    display: block;
+    margin: 10px auto;
+    font-size: 1.1rem;
+    padding-inline:0.3rem;
+    background-color: rgb(29, 133, 237);
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#bio{
+    height: 5rem;
+    font-size: 1.1rem;
+    width: 23rem;
+    padding-top:1px ;
+}
