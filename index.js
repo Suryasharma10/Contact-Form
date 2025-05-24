@@ -1,6 +1,6 @@
 let submit = document.querySelector("button");
 submit.addEventListener("click",()=>{
-    if(submit==click){
-    alert("Form Submitted")
+    if(submit){
+    alert(`Form Submitted \u{1F497}`)
     }
 });
